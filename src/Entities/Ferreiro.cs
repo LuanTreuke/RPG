@@ -1,5 +1,6 @@
 namespace RPG
 {
+    // Classe Ferreiro que implementa a interface IProfissao
     public class Ferreiro : IProfissao
     {
         public void Trabalhar()

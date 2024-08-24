@@ -1,5 +1,6 @@
 namespace RPG
 {
+    // Classe abstrata Personagem
     public abstract class Personagem
     {
         public string Nome { get; set; }
@@ -14,6 +15,7 @@ namespace RPG
         public abstract void Atacar();
         public abstract void Defender();
 
+        // Método para exibir os detalhes do personagem
         public void ExibirDetalhes()
         {
             Console.WriteLine($"Nome: {Nome}");

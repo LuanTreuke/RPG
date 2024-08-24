@@ -1,13 +1,14 @@
 namespace RPG
 {
 
-
+    // Classe para gerenciar personagens
     public class GerenciadorDePersonagens
     {
         public Personagem CriarPersonagem(string nome, Raca raca, Classe classe, IProfissao profissao)
         {
             Personagem personagem;
 
+            // Instancia o personagem de acordo com a raça
             switch (raca)
             {
                 case Raca.Humano:
@@ -26,6 +27,7 @@ namespace RPG
                     throw new ArgumentException("Raça inválida.");
             }
 
+            // Configura o personagem
             personagem.Nome = nome;
             personagem.Raca = raca;
             personagem.Classe = classe;
@@ -34,16 +36,18 @@ namespace RPG
             return personagem;
         }
 
+        // Método para combate básico
         public void Combate(Personagem p1, Personagem p2)
         {
             Console.WriteLine($"{p1.Nome} está lutando contra {p2.Nome}!");
-
+            // Simula um ataque e defesa entre os personagens
             p1.Atacar();
             p2.Defender();
 
             p2.Atacar();
             p1.Defender();
 
+            // Determina o vencedor com base na força
             if (p1.Forca > p2.Forca)
             {
                 Console.WriteLine($"{p1.Nome} venceu a batalha!");

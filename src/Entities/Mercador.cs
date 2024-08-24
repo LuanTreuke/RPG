@@ -1,5 +1,6 @@
 namespace RPG
 {
+    // Classe Mercador que implementa a interface IProfissao
     public class Mercador : IProfissao
     {
         public void Trabalhar()

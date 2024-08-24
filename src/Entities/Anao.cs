@@ -1,5 +1,6 @@
 namespace RPG
 {
+    // Classe para a raça Anão que herda de Personagem
     public class Anao : Personagem
     {
         public Anao()

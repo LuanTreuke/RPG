@@ -1,5 +1,6 @@
 namespace RPG
 {
+    // Classe para a raça Elfo que herda de Personagem
     public class Elfo : Personagem
     {
         public Elfo()

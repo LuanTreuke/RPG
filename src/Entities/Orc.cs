@@ -1,4 +1,4 @@
-namespace RPG.Entities
+namespace RPG
 {
     public class Orc : Personagem
     {

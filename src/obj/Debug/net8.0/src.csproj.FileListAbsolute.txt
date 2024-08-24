@@ -12,3 +12,4 @@ C:\Users\luane\OneDrive\Documentos\elel\códigos C#\RPG\src\obj\Debug\net8.0\ref
 C:\Users\luane\OneDrive\Documentos\elel\códigos C#\RPG\src\obj\Debug\net8.0\src.pdb
 C:\Users\luane\OneDrive\Documentos\elel\códigos C#\RPG\src\obj\Debug\net8.0\src.genruntimeconfig.cache
 C:\Users\luane\OneDrive\Documentos\elel\códigos C#\RPG\src\obj\Debug\net8.0\ref\src.dll
+C:\Users\luane\OneDrive\Documentos\elel\códigos C#\RPG\src\obj\Debug\net8.0\src.sourcelink.json

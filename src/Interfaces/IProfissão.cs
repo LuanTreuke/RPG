@@ -1,4 +1,4 @@
-namespace RPGConsole
+namespace RPG
 {
     // Interface para as profissões
     public interface IProfissao

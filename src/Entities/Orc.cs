@@ -1,4 +1,4 @@
-namespace RPGConsole
+namespace RPG
 {
     public class Orc : Personagem
     {

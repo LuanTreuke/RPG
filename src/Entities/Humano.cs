@@ -1,4 +1,4 @@
-namespace RPGConsole.Entities
+namespace RPG.Entities
 {
     public class Humano : Personagem
     {

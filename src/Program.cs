@@ -1,9 +1,20 @@
-﻿namespace src;
+﻿using System;
 
-class Program
+namespace RPG
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            GerenciadorDePersonagens gerenciador = new GerenciadorDePersonagens();
+
+            Personagem heroi = gerenciador.CriarPersonagem("Aragorn", Raca.Humano, Classe.Guerreiro, new Ferreiro());
+            Personagem inimigo = gerenciador.CriarPersonagem("Azog", Raca.Orc, Classe.Guerreiro, new Mercador());
+
+            heroi.ExibirDetalhes();
+            inimigo.ExibirDetalhes();
+
+            gerenciador.Combate(heroi, inimigo);
+        }
     }
 }

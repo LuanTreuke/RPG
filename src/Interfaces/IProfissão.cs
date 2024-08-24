@@ -1,4 +1,4 @@
-namespace RPG
+namespace RPG.Interface
 {
     // Interface para as profissões
     public interface IProfissao

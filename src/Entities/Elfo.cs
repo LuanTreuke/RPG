@@ -1,4 +1,4 @@
-namespace RPG
+namespace RPG.Entities
 {
     public class Elfo : Personagem
     {
